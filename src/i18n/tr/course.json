@@ -1,0 +1,9 @@
+{
+  "NOT_FOUND": "{id} id'sine sahip kurs bulunamadı.",
+  "CARD_NOT_FOUND": "{id} id'sine sahip kart bulunamadı.",
+  "CARD_CANNOT_MOVE": "Bu kart hareket edemez.",
+  "CHAPTER_CANNOT_MOVE": "Bu chapter hareket edemez.",
+  "CHAPTER_NOT_FOUND": "{id} id'sine sahip chapter bulunamadı.",
+  "CARD_TYPE_NOT_FOUND": "{id} id'sine sahip kart tipi bulunamadı.",
+  "UNKNOWN_DIRECTORY_TYPE": "Bilinmeyen yön"
+}

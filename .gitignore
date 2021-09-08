@@ -1,0 +1,38 @@
+# compiled output
+/dist
+/node_modules
+/public/uploads/profilepictures/*
+!/public/uploads/profilepictures/48ee73c0-7518-4538-adc4-d1fe8940f073.jpeg
+/public/uploads/excel/*
+!/public/uploads/excel/92ce0545-2249-49f8-8c38-f7d1038c9adf.jpeg
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# OS
+.DS_Store
+
+# Tests
+/coverage
+/.nyc_output
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json

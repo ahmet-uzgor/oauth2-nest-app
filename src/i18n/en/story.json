@@ -1,0 +1,9 @@
+{
+  "NOT_FOUND": "The story with id {id} could not be found.",
+  "PAGE_NOT_FOUND": "The page with id {id} could not be found.",
+  "PAGE_CANNOT_MOVE": "This page cannot move.",
+  "SECTION_CANNOT_MOVE": "This section cannot move.",
+  "SECTION_NOT_FOUND": "The section with id {id} could not be found.",
+  "STORY_TYPE_NOT_FOUND": "The story type with id {id} could not be found.",
+  "UNKNOWN_DIRECTORY_TYPE": "Unknown directory type."
+}

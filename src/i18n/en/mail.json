@@ -1,0 +1,9 @@
+{
+  "INVALID_EMAIL": "You entered an invalid email format..",
+  "NOT_EMPTY_EMAIL": "Email field cannot be empty.",
+  "NOT_EMPTY_CODE": "Code field cannot be empty.",
+  "RENEW_EMAIL": "Email sent to reset your password.",
+  "TOKEN_EXPIRED": "The token has expired..",
+  "TOKEN_NOT_FOUND": "The token was not found.",
+  "EMAIL_IS_NOT_EMPTY": "You have to add at least one e-mail"
+}

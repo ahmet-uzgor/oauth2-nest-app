@@ -1,0 +1,9 @@
+{
+  "NOT_FOUND": "{id} id'sine sahip hikaye bulunamadı.",
+  "PAGE_NOT_FOUND": "{id} id'sine sahip sayfa bulunamadı.",
+  "PAGE_CANNOT_MOVE": "Bu sayfa hareket edemez.",
+  "SECTION_CANNOT_MOVE": "Bu bölüm hareket edemez.",
+  "SECTION_NOT_FOUND": "{id} id'sine sahip bölüm bulunamadı.",
+  "STORY_TYPE_NOT_FOUND": "{id} id'sine sahip hikaye tipi bulunamadı.",
+  "UNKNOWN_DIRECTORY_TYPE": "Bilinmeyen yön"
+}

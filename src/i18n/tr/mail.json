@@ -1,0 +1,9 @@
+{
+  "INVALID_EMAIL": "Geçersiz bir email formatı girdiniz.",
+  "NOT_EMPTY_EMAIL": "Email alanı boş geçilemez.",
+  "NOT_EMPTY_CODE": "Kod alanı boş geçilemez.",
+  "RENEW_EMAIL": "Şifrenizi yenilemek için e-posta gönderildi.",
+  "TOKEN_EXPIRED": "Girdiğiniz tokenin süresi dolmuştur.",
+  "TOKEN_NOT_FOUND": "Girdiğiniz token bulunamadı.",
+  "EMAIL_IS_NOT_EMPTY": "Bu işlem için en az bir e-posta adresi eklemeniz gerekiyor"
+}

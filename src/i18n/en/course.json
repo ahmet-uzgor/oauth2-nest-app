@@ -1,0 +1,10 @@
+{
+  "NOT_FOUND": "The course with id {id} could not be found.",
+  "CARD_NOT_FOUND": "The card with id {id} could not be found.",
+  "CARD_CANNOT_MOVE": "This card cannot move.",
+  "CHAPTER_CANNOT_MOVE": "This chapter cannot move.",
+  "CHAPTER_NOT_FOUND": "The chapter with id {id} could not be found.",
+  "CARD_TYPE_NOT_FOUND": "The card type with id {id} could not be found.",
+  "UNKNOWN_DIRECTORY_TYPE": "Unknown directory type."
+
+}

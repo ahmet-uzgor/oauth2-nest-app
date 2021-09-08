@@ -1,0 +1,66 @@
+version: '3.8'
+
+services:
+  db:
+    image: mariadb:10.2
+    container_name: microlearning-mariadb
+    command:
+      [
+        'mysqld',
+        '--character-set-server=utf8mb4',
+        '--collation-server=utf8mb4_unicode_ci',
+      ]
+    restart: always
+    environment:
+      MYSQL_ALLOW_EMPTY_PASSWORD: 'true'
+      MYSQL_DATABASE: 'microlearning'
+    ports:
+      - '3307:3306'
+    expose:
+      - 3307
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: microlearning-phpymadmin
+    links:
+      - 'db:mysql'
+    environment:
+      MYSQL_ALLOW_EMPTY_PASSWORD: 'true'
+      MYSQL_USERNAME: root
+      MYSQL_ROOT_PASSWORD:
+      MYSQL_DATABASE: 'microlearning'
+    ports:
+      - '3306:80'
+    volumes:
+      - '/sessions'
+    expose:
+      - 3306
+  backend:
+    image: microlearning-backend
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: npm run start:debug
+    ports:
+      - 3000:4427
+    expose:
+      - 3000
+    volumes:
+      - ./src:/app/src
+      - ./test:/app/test
+      - ./public:/app/public
+    links:
+      - 'db:mysql'
+    depends_on:
+      - db
+      - phpmyadmin
+    environment:
+      MYSQL_ALLOW_EMPTY_PASSWORD: 'true'
+      MYSQL_DATABASE: 'microlearning'
+      NODE_ENV: development
+  redis:
+    image: "redis:alpine"
+    hostname: 127.0.0.1
+    ports:
+      - "6380:6379"
+    expose:
+      - "6380"
